@@ -45,8 +45,7 @@ const App = () => {
 
   const inputHandler = (e) => {
     if (e.key === "Enter") {
-      findFromCity(document.getElementsByTagName('input')[0].value);
-      useState("");
+      findFromCity(document.getElementsByTagName('input')[0].value)
     }
   }
 
